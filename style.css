@@ -11,7 +11,6 @@ body
 
 #video_section
 {
-    border-bottom: 15px solid #323a56;
     position: relative;
     width: 100%;
     text-align: center;
@@ -40,9 +39,7 @@ margin-bottom:1em;
 
 #level_section
 {
-    background-image: url("img/back_2.jpg");
-    border-bottom: 15px solid #323a56;
-    border-bottom: 15px solid #323a56;
+    background: black;
     height: 500px;
     position: relative;
     width: 100%;
@@ -50,16 +47,14 @@ margin-bottom:1em;
 
 #maps_section
 {
-    background-image: url("img/back_3.jpg");
-    border-bottom: 15px solid #323a56;
+    background: black;
     height: 1280px;
     position: relative;
     width: 100%;
 }	
 
 #notes_section {
-    background-image: url("img/back_4.jpg");
-    border-bottom: 15px solid #323a56;
+   background: black;
     height: 400px;
     position: relative;
     width: 100%;
@@ -115,15 +110,6 @@ p
     font-family: 'Maven Pro',sans-serif;
 }
 
-#logo {
-
-    height: 171px;
-    left: 50%;
-	margin-left: -185px;
-	padding-top:20px;
-    position: relative;
-    width: 271px;
-}
 
 #patch_title {
     color: #ffffff;
@@ -134,8 +120,15 @@ p
     text-shadow: 2px 2px 6px #000000, 4px 5px 20px #224585;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom:1em;
 }
+#undertitle
+{
+    color: #1affff;
+    font-size: 3em;
+    font-weight: 700;
+    text-shadow: 2px 2px 6px #000000, 4px 5px 20px #224585;
+}
+
 a
 {
 text-decoration:none;
