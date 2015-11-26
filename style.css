@@ -6,25 +6,25 @@
 body
 {
  font-family: 'Maven Pro',sans-serif;
+ background:black;
 }
+
 #video_section
 {
-   border-bottom: 15px solid #323a56;
-    height: 950px;
+    border-bottom: 15px solid #323a56;
     position: relative;
     width: 100%;
-    text-align: center; 
-    
+    text-align: center;
+    height:510px;
 }
 
 video
 {
-width: 100%;
 position:absolute;
 z-index: -10;
 top:0;
 left:0;
-
+margin-bottom:1em;
 }
 
 #link_back {
@@ -134,6 +134,7 @@ p
     text-shadow: 2px 2px 6px #000000, 4px 5px 20px #224585;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom:1em;
 }
 a
 {
