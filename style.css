@@ -45,7 +45,7 @@ margin-bottom:1em;
     width: 100%;
 }
 
-#maps_section
+#gallery_section
 {
     background: black;
     height: 1280px;
@@ -232,6 +232,14 @@ text-decoration:none;
     position: relative;
     width: 5px;
     z-index: 100;
+}
+
+#fslogo
+{
+      position: relative;
+	  width: 100%;
+	  z-index: 99;
+	  margin-top: -50%;
 }
 
 #left_arrow 
