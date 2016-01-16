@@ -26,16 +26,6 @@ left:0;
 margin-bottom:1em;
 }
 
-#link_back {
-    color: #ffffff;
-    left: 5%;
-    opacity: 0.8;
-    position: absolute;
-    text-decoration: none;
-    top: 5px;
-	z-index: 5;
-	font-size:20px;
-}
 
 #level_section
 {
@@ -60,18 +50,6 @@ margin-bottom:1em;
     width: 100%;
 }
 
-#footer {
-    background: url("http://s.aeriastatic.com/files/portal/image/L/LP_footer_pattern.png") repeat-x scroll center top #000000;
-    display: block;
-    height: 200px;
-    line-height: 5px;
-    margin: auto;
-    overflow: visible;
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
-    width: 100%;
-}
 
 #button_play {
     background: linear-gradient(to bottom, #808080 0%, #a6a6a6 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
@@ -189,24 +167,34 @@ text-decoration:none;
     width: 400px;
 }
 
-#p3_gallery1, #stats
+#p3_gallery1
 {
     background-color: rgba(0, 0, 0, 0.5);
-    height: 525px;
+    height: 420px;
     left: 50%;
     margin-left: -400px;
-    margin-top: 20px;
     position: relative;
     width: 795px;
     z-index: 10;
 }
+
+#right_block {
+  float: right;
+  width: 40%;
+  padding:5px;
+}
+#left_block {
+  float: left;
+  width: 40%;
+  padding:5px;
+}
+
 #stats
 {
-    margin-top:0.5em;
-    left: 60%;
-    
+    margin-left:20%;
+       
 }
-	
+
 .gallery_pic
 {
       left: 50%;
@@ -218,21 +206,24 @@ text-decoration:none;
 	  z-index: 10;
 }
 
-.gallery_stat {
-    background: -webkit-linear-gradient(left, red , blue); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, red, blue); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, red, blue); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, red , blue); /* Standard syntax */
+.gallery_stat{
+    background: -webkit-linear-gradient(left, #FFCC00 , #FF9900); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #FFCC00 , #FF9900); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #FFCC00 , #FF9900); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #FFCC00 , #FF9900); /* Standard syntax */
     border-color: #404040;
     border-style: solid;
     border-width: 1px;
     box-shadow: 0 4px 10px #000000;
     color: #ffffff;
-    height: 5px;
+    font-size:15px;
+    height: 20px;
     position: relative;
-    width: 5px;
     z-index: 100;
+    width:100px;
+    padding-left:10px;
 }
+
 
 #fslogo
 {
