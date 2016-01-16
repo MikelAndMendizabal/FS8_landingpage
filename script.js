@@ -21,35 +21,35 @@ $("#p3_titel").text("AK-74M War Machine");
 $("#pic1").fadeIn();
 
 $("#stat1").animate({
-           width: '+='+parseInt(atk["pic1"], 10)+'px'
+           width: 100+parseInt(atk["pic1"], 10)+'px'
        });
 $("#stat1_value").text(atk["pic1"]);
 $("#stat2").animate({
-           width: '+='+parseInt(range["pic1"], 10)+'px'
+           width: 100+parseInt(range["pic1"], 10)+'px'
        });
 $("#stat2_value").text(range["pic1"]);
 $("#stat3").animate({
-           width: '+='+parseInt(acc["pic1"], 10)+'px'
+           width: 100+parseInt(acc["pic1"], 10)+'px'
        });
 $("#stat3_value").text(acc["pic1"]);
 $("#stat4").animate({
-           width: '+='+parseInt(autofireacc["pic1"], 10)+'px'
+           width: 100+parseInt(autofireacc["pic1"], 10)+'px'
        });
 $("#stat4_value").text(autofireacc["pic1"]);
 $("#stat5").animate({
-           width: '+='+parseInt(recoil["pic1"], 10)+'px'
+           width: 100+parseInt(recoil["pic1"], 10)+'px'
        });
 $("#stat5_value").text(recoil["pic1"]);
 $("#stat6").animate({
-           width: '+='+parseInt(autofire["pic1"], 10)+'px'
+           width: 100+parseInt(autofire["pic1"], 10)+'px'
        });
 $("#stat6_value").text(autofire["pic1"]);
 $("#stat7").animate({
-           width: '+='+parseInt(magcap["pic1"], 10)+'px'
+           width: 100+parseInt(magcap["pic1"], 10)+'px'
        });
 $("#stat7_value").text(magcap["pic1"]);
 $("#stat8").animate({
-           width: '+='+parseInt(mob["pic1"], 10)+'px'
+           width: 100+parseInt(mob["pic1"], 10)+'px'
        }); 
 $("#stat8_value").text(mob["pic1"]);
 
@@ -82,42 +82,42 @@ else;
 picture = pictures[i];
 $("#p3_titel").text(weapon_names[picture]);
 $("#stat1").animate({
-           width: '+='+parseInt(atk[picture], 10)+'px'
+           width: 100+parseInt(atk[picture], 10)+'px'
        });
 $("#stat1_value").text(atk[picture]);
 
 $("#stat2").animate({
-           width: '+='+parseInt(range[picture], 10)+'px'
+           width: 100+parseInt(range[picture], 10)+'px'
        });
 $("#stat2_value").text(range[picture]);
 
 $("#stat3").animate({
-           width: '+='+parseInt(acc[picture], 10)+'px'
+           width: 100+parseInt(acc[picture], 10)+'px'
        });
 $("#stat3_value").text(acc[picture]);
 
 $("#stat4").animate({
-           width: '+='+parseInt(autofireacc[picture], 10)+'px'
+           width: 100+parseInt(autofireacc[picture], 10)+'px'
        });
 $("#stat4_value").text(autofireacc[picture]);
 
 $("#stat5").animate({
-           width: '+='+parseInt(recoil[picture], 10)+'px'
+           width: 100+parseInt(recoil[picture], 10)+'px'
        });
 $("#stat5_value").text(recoil[picture]);
 
 $("#stat6").animate({
-           width: '+='+parseInt(autofire[picture], 10)+'px'
+           width: 100+parseInt(autofire[picture], 10)+'px'
        });
 $("#stat6_value").text(autofire[picture]);
 
 $("#stat7").animate({
-           width: '+='+parseInt(magcap[picture], 10)+'px'
+           width: 100+parseInt(magcap[picture], 10)+'px'
        });
 $("#stat7_value").text(magcap[picture]);
 
 $("#stat8").animate({
-           width: '+='+parseInt(mob[picture], 10)+'px'
+           width: 100+parseInt(mob[picture], 10)+'px'
        });
 $("#stat8_value").text(mob[picture]);
 
@@ -144,42 +144,42 @@ else;
 picture = pictures[i];
 $("#p3_titel").text(weapon_names[picture]);
 $("#stat1").animate({
-           width: '+='+parseInt(atk[picture], 10)+'px'
+           width: 100+parseInt(atk[picture], 10)+'px'
        });
 $("#stat1_value").text(atk[picture]);
 
 $("#stat2").animate({
-           width: '+='+parseInt(range[picture], 10)+'px'
+           width: 100+parseInt(range[picture], 10)+'px'
        });
 $("#stat2_value").text(range[picture]);
 
 $("#stat3").animate({
-           width: '+='+parseInt(acc[picture], 10)+'px'
+           width: 100+parseInt(acc[picture], 10)+'px'
        });
 $("#stat3_value").text(acc[picture]);
 
 $("#stat4").animate({
-           width: '+='+parseInt(autofireacc[picture], 10)+'px'
+           width: 100+parseInt(autofireacc[picture], 10)+'px'
        });
 $("#stat4_value").text(autofireacc[picture]);
 
 $("#stat5").animate({
-           width: '+='+parseInt(recoil[picture], 10)+'px'
+           width: 100+parseInt(recoil[picture], 10)+'px'
        });
 $("#stat5_value").text(recoil[picture]);
 
 $("#stat6").animate({
-           width: '+='+parseInt(autofire[picture], 10)+'px'
+           width: 100+parseInt(autofire[picture], 10)+'px'
        });
 $("#stat6_value").text(autofire[picture]);
 
 $("#stat7").animate({
-           width: '+='+parseInt(magcap[picture], 10)+'px'
+           width: 100+parseInt(magcap[picture], 10)+'px'
        });
 $("#stat7_value").text(magcap[picture]);
 
 $("#stat8").animate({
-           width: '+='+parseInt(mob[picture], 10)+'px'
+           width: 100+parseInt(mob[picture], 10)+'px'
        });
 $("#stat8_value").text(mob[picture]);
 
